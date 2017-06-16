@@ -22,7 +22,7 @@ for i in range(0,1000000):
 # dentro do circulo e' proporcional
 # a area do circulo. O numero de
 # pontos que caem dentro do circulo
-# sobre o total é o quociente das areas.
+# sobre o total e' o quociente das areas.
 # A area do circulo e'pi e a do quadrado
 # e' 4
 pi = 4.0*inside/(inside + outside)
