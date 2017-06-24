@@ -16,12 +16,12 @@
 //Forma 1: Recursão
   require_once(funcao.php);
   
-  $texto = "Ananias";
+  $texto = "Amora";
   $esperado = "sainanA";
 
-  if (strcmp($esperado,trocarCaractere($texto,0, strlen($texto))) == TRUE)
-    echo "<h1>$texto ao contrário é $esperado</h1>";
+  if (strcmp($esperado,trocarCaractere($texto,0, strlen($texto)-1)) == 0)
+    echo "<h1>$texto ao contrário foi igual ao esperado $esperado</h1>";
 
-  echo "<br> Porquê $texto foi revertido pelo trocarCaractere()" 
+  echo "<br> Porque $texto foi revertido pelo trocarCaractere()" 
 
 ?>
