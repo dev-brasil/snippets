@@ -12,6 +12,7 @@
 
   Como reverter esta coleção de forma que os últimos sejam os primeiros?
 */
+
 //Forma 1: Recursão
   require_once(funcao.php);
   
@@ -19,7 +20,8 @@
   $esperado = "sainanA";
 
   if (strcmp($esperado,trocarCaractere($texto,0, strlen($texto))) == TRUE)
-    echo "$texto ao contrário é $esperado";
+    echo "<h1>$texto ao contrário é $esperado</h1>";
 
+  echo "<br> Porquê $texto foi revertido pelo trocarCaractere()" 
 
 ?>
